@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pizza Fast Food</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="javaScriptPizzeria.css">
+</head>
+
+<body>
+    <div id='orderForm'>
+        <label> Number of Pizza you want:
+            <input type='number' id='numOfPizza'/>
+        </label>
+
+        <br>
+        <br>
+
+        <label> Kind of Pizza
+            <select id='kindOfPizza'>
+                <option value="Pineapple">Pineapple</option>
+                <option value="Something Meaty">Something Meaty</option>
+                <option value="Pepperoni">Pepperoni</option>
+                <option value="Supreme">Supreme</option>
+            </select>
+        </label>
+        
+        <br>
+        <br>
+
+        <label>Location
+            <select id="deliveryLocation">
+                <option value="Midrand">Midrand</option>
+                <option value="Waterfall">Waterfall</option>
+                <option value="Sunninghill">Sunninghill</option>
+                <option value="Rivonia">Rivonia</option>
+            </select>
+
+        </label>
+
+        <br>
+        <br>
+
+        <label>Is it your birthday?
+            <select id="birthday">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </label>
+
+        <br>
+        <br>
+
+        <button type="button" id="placeOrder">Place Order</button>
+
+    </div>
+
+    <div id="displayResults"></div>
+
+    <!-- link to the javaScript file -->
+    <script src="javaScriptPizzeria2.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Number Guessing Game</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" media="screen" href="randomNumberGame.css"
+
+</head>
+
+<body onload="init()">
+
+
+	<div class="form">
+		<h1 class="form">Guess Number Game.</h1>
+
+		<p class="form">Guessing game select a number between 1 and 10.</p>
+		<hr>
+		<!-- Label: for the textbox -->
+		<label class="form" for="guesstxtbox">Enter a guess:</label>
+
+		<br>
+		<!-- Textbox for excepting user input-->
+		<input type = "text" id = "txtCGN" class = "guesstxtbox">
+		<hr>
+			
+		<button class = "btn" type="button" id="validateBtn">Find Out!</button>
+		<hr>
+		
+	</div>
+	<div class="form" id="displayMsg"></div>
+	<!-- JavaScript: validates the user input, generates a random number etc -->
+	<script src="randomNumberGame.js"></script>
+</body>
+</html>					

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+            ID Generator
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/css.css">
+      
+    </head>
+
+    <body onload="init()">
+
+        <div class="setForm">
+            <h4 class="setForm">
+                If you have a website or app that requires users 
+                to submit their South African identity number, 
+                you will definitely want to make sure it’s valid. 
+                <br>
+                The South African ID is validated by matching the following criteria.
+            </h4>
+
+            <hr><!-- horizontal line -->
+            <p class="div1" id="p1">
+                <br>
+                1) The total number of digits must be 13.<br>
+                2) The format is [YYMMDD] [GGGG] [C] [A] [Z]
+           
+        
+                [YYMMDD] for the ID holder’s date of birth
+                <br>
+                [GGGG] for ID holder’s gender. 0000 – 4999 for female and 5000 – 9999 for male.
+                <br>
+                [C] is their citizenship status. 0 is a South African Citizen and 1 is a permanent resident.
+                <br>
+                [A] can be any number but, at the time of writing this post, is usually an 8.                    
+                <br>
+                [Z] is a check digit which uses the Luhn Algorithm to validate the rest of the ID number.
+            </p>
+            
+            <hr><!-- horizontal line -->
+
+            <form class="setForm" id="formFrm">
+                <input type="text" id="idNum"/>
+                <br>
+                <button type="button" id="computeBtn">Find Out!</button>
+                <button type="button" id="clearBtn">Clear</button>
+            </form>
+        </div>
+
+        <hr><!-- horizontal line -->
+
+        <div class="setForm" id="displayDiv"></div>
+        
+        <!-- js file -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

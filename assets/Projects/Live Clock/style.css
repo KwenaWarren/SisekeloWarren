@@ -1,0 +1,19 @@
+/* Importing Open Sans Condensed Google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+* {
+    font-family: system-ui;;
+    /* background-color: RGB(239, 192, 80); */
+    background-color:rgba(104, 76, 10, 0.63);
+  }
+
+#digital-clock {
+ background-color: rgb(184, 135, 20);/* background-color: #66ffff; */
+ width: 35%;
+ margin: auto;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-size: 64px;
+ text-align: center;
+ box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}

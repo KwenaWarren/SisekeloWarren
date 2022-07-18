@@ -1,0 +1,15 @@
+* {
+    font-family: system-ui;;
+    /* background-color: RGB(239, 192, 80); */
+    background-color:rgba(20, 105, 184, 0.801);
+  }
+
+#orderForm{
+    margin-top: 5%;
+    font-size: 2.2em;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 0 rgba(95, 99, 71, 0.253);
+    height: 500px;
+    font-weight: lighter;
+}

@@ -1,0 +1,52 @@
+* {
+    font-family: system-ui;;
+    /* background-color: RGB(239, 192, 80); */
+    /* background-color:rgba(104, 76, 10, 0.63); */
+  }
+	
+body {
+	background-color: rgba(255, 180, 4, 0.993);
+	width: 40%;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 40px;
+	
+}
+.form{
+	box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+	text-align: center;
+}
+#txtCGN{
+	background-color: rgb(238, 195, 77);
+	text-align:center;
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+.btn{
+	background-color: rgb(238, 195, 77);
+	text-align:center;
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+
+.btn:hover {
+	background-color: rgba(255, 180, 4, 0.993);
+	color: white;
+}
+
+#displayMsg{
+	box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+	/* color: white; */
+	font-size: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* .button2:hover {
+  background-color: #008CBA;
+  color: white;
+} */

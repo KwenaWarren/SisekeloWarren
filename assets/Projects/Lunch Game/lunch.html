@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Lunch Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="lunch.css" />
+  </head>
+  <body>
+    <h1 id="heading">Lunch Game!</h1>
+
+    <div id="instructions">
+      <p>
+        Weekly Allowance Amount: R<span class="allowance" id="allowanceBudget"></span>
+        <br>
+        Meals cost between R10 and R20, however the price of each meal is unknown.
+      </p>
+      <p>Make sure you planned your weekly lunch budget.</p>
+    </div>
+    <div id="orderForm">
+      <label
+        >Choose the number of meals here:
+        <br />
+        <input type="number" id="numSandwiches" />
+      </label>
+      <button type="button" id="placeOrder">Done</button>
+      
+    </div>
+    <div id="receipt"></div>
+    <script src="lunch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+#heading{
+    font-size: 2.2em;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 0 rgba(95, 99, 71, 0.253);
+   
+}
+
+body {
+    font-family: system-ui;
+    background-color: rgba(157, 182, 13, 0.664);
+    font-weight: lighter;
+}
+#instructions {
+    background-color: rgba(157, 182, 13, 0.548);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    padding: 6px;
+    margin: 6px;
+}
+#orderForm {
+    background-color: rgba(157, 182, 13, 0.548);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    /* width: 75%; */
+    margin: 20px auto;
+    text-align: center;
+}
+#receipt {
+    background-color: rgba(157, 182, 13, 0.548);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+    /* color: #000; */
+    padding: 6px;
+}
+.allowance{
+    font-weight: bold;
+}

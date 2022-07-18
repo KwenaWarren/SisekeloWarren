@@ -1,0 +1,26 @@
+/* The oval-shaped, red border, yellow background elements that hold the nine numbers
+are created dynamically as span elements. */
+span { 
+    position:absolute; 
+    top:180px;
+    border-style: solid; 
+    /* color: red; */
+    color: #37280098;
+    border-radius: 25px; 
+    /* background-color: yellow; */
+    background-color: #ffe08cf1;
+    padding: 5px; 
+    cursor: pointer;
+}
+
+#status { 
+    color: red;
+    font-size: x-large;
+    
+}
+
+body {
+    /* background-color: rgba(63, 145, 223, 0.582); */
+    background-color: #ffbb00ab;
+    /* background-color: #ebebde; */
+}

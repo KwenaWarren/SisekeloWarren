@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(43, 107, 0, 0.49);
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+	/* color: white; */
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+    width: 70%;
+    margin: 20px auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+    padding: 6px;
+}
+
+.setForm{
+    margin-top: 5%;
+    text-align: center;
+    font-weight: lighter;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
